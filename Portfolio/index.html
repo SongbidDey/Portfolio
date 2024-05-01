@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Songbid - Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/48626c3cf1.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left"><<< Songbid >>></div>
+            <div class="right">
+                <ul>
+                    <li><a href="/"> Home</a></li>
+                    <li><a href="#second">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">Hi, My name is <span class="purple">Songbid</span> 
+                <div>and I am a passionate</div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <a href="CV.pdf" class="btn" download >Download Resume</a>
+                    <a href="https://github.com/SongbidDey" class="btn" target="_blank">Visit Github</a>
+                    <!-- <button class="btn">Download Resume</button>
+                    <button class="btn">Visit Github</button> -->
+                </div>
+            </div>
+            <div class="rightSection">
+                <img src="bg.png" alt="">
+            </div>
+        </section>
+        <!-- --------------------about-------------- -->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="user3.png" alt="">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>In my 3+ years of college life I have terribly hustled with my coding journey, I am a JAVA specialist
+                            programmer. </p>
+                        <p>Motivated professional with a strong background in programming languages. Seeking a dynamic and
+                            forward-thinking company where I can apply my technical skills and further enhance my capabilities.
+                            Highly enthusiastic to join as a Entry level Tech Job role</p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-links"onclick="opentab('education')">Education</p>
+                            <p class="tab-links " onclick="opentab('skills')">Skills</p>
+                            
+                            <p class="tab-links"onclick="opentab('experience')">Experience</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="education">
+                            <ul>
+                                <li><span>2020 - 2024 </span><br> B.Tech | Computer Science & Engineering(CSE) <br>Camellia Institute of Technology <br>GPA: 9.1</li>
+                                <li><span>2019 - 2020 </span><br> Higher Secondary | Pure Science <br>Basirhat Town High School(H.S.) <br> Percentage: 89.6</li>
+                                <li><span>2017 - 2018 </span><br> Secondary <br>Basirhat Town High School(H.S.)<br> Percentage: 86.4</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents " id="skills">
+                            <ul>
+                                <li><span>Programming Languages: </span><br>JAVA, C</li>
+                                <li><span>Frontend: </span><br> HTML, CSS, JS, Bootstrap</li>
+                                <li><span>Backend: </span><br>Node.Js, Express.Js, EJS</li>
+                                <li><span>Database: </span><br>Oracle SQL, MongoDb</li>
+
+                            </ul>
+                        </div>
+                        
+                        <div class="tab-contents " id="experience">
+                            <ul>
+                                <li><span>Jan'2023 - Mar'2023</span><br><b>SDE Intern | CSS LLC </b><br>Work that I did – Android,Software Test, write & edit codes, Debug</li>
+                                <li><span>Jan'2024 - Present </span><br><b>Corporate Training | Jspider, Kolkata</b><br><ul> <li>The course will be trained by top industry experts who have a passion for Java
+                                    Full Stack. The course is more job-oriented training which is designed as per
+                                    current industry standards.</li>
+                                    <li>I am working on Learn to design and develop the database by using concepts of
+                                    RDBMS and SQL, Java language with OOPS concepts. Front end with business
+                                    components and Database by using JSP, Servlets</li></ul> </li>
+                                
+
+                            </ul>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+
+        </div>
+        <!-- ----------------------Portfolio-------------- -->
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">My Work</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="simon.png" alt="">
+                        <div class="layer">
+                            <h3>Simon Game</h3>
+                            <p>This is the exciting game of lights and sounds in which players must repeat random sequences of lights by pressing the colored buttons in the correct order. </p>
+                            <p>Used Technologies: HTML,CSS, JS, JQuery</p>
+                            <a href="https://simon-gameeee.netlify.app/" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="drum.png" alt="">
+                        <div class="layer">
+                            <h3>Drum Kit</h3>
+                            <p> Drum kit project typically refers to a web-based application or website that simulates the experience of playing a drum kit by clicking on different drum elements or using keyboard keys to produce various sounds</p>
+                            <p>Used Technologies: HTML,CSS, JS</p>
+                            <a href="https://kit-drum.netlify.app/" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="Dice.png" alt="">
+                        <div class="layer">
+                            <h3>Simple Dice Game</h3>
+                            <p> Dice game typically refers to a web-based application or website that simulates the experience of throwing dice by refreshing the web page </p>
+                            <p>Used Technologies: HTML,CSS, JS</p>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="btn1">See More</a>
+            </div>
+        </div>
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <div class="sub-title">Contact Me</div>
+                        <p><i class="fa-solid fa-paper-plane"></i>songbiddey.eng@gmail.com</p>
+                        <p><i class="fa-solid fa-square-phone"></i>9002008605</p>
+                        <div class="social-icons">
+                            <a href="https://www.facebook.com/songbid.dey" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="https://github.com/SongbidDey" target="_blank"><i class="fa-brands fa-github"></i></a>
+                            <a href="https://www.instagram.com/songbid_dey/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://www.linkedin.com/in/songbid-dey/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                    <div class="contact-right">
+                        <form action="">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn3 btn2">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Copyright &copy Songbid &nbsp; <i class="fa-solid fa-heart"></i></p>
+            </div>
+        </div>
+        
+        
+    </main>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script> 
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Frontend Developer', 'Backend Developer', 'Full-Stack Developer'],
+          typeSpeed: 50,
+        });
+
+
+        
+      </script>
+     <script>
+        var tablinks=document.getElementsByClassName("tab-links");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-links");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-links");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+        
+     </script>
+</body>
+</html>
